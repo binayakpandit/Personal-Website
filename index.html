@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binayak Pandit | Cyber Security Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Matrix Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="scanline"></div>
+    
+    <div class="terminal-container">
+        <header class="terminal-header">
+            <span class="terminal-button red"></span>
+            <span class="terminal-button yellow"></span>
+            <span class="terminal-button green"></span>
+            <div class="terminal-title">user@binayak-portfolio: ~ (zsh)</div>
+        </header>
+
+        <main class="terminal-body" id="app">
+            <div class="intro-sequence">
+                <p class="command-line"><span class="prompt">➜  ~</span> <span class="typing-effect" data-text="init connection --secure --target=portfolio"></span></p>
+            </div>
+            
+            <div class="content-wrapper hidden" id="main-content">
+                <!-- Navigation -->
+                <nav class="ascii-art">
+<pre>
+ ____  _                          _    
+| __ )(_)_ __   __ _ _   _  __ _| | _ 
+|  _ \| | '_ \ / _` | | | |/ _` | |/ /
+| |_) | | | | | (_| | |_| | (_| |   < 
+|____/|_|_| |_|\__,_|\__, |\__,_|_|\_\
+                     |___/             
+</pre>
+                </nav>
+
+                <div class="status-bar">
+                    <span class="status-item">USER: GUEST</span>
+                    <span class="status-item">ROLE: BACKEND / CYBER ASPIRANT</span>
+                    <span class="status-item blink">STATUS: ONLINE</span>
+                </div>
+
+                <div class="grid-layout">
+                    <!-- Sidebar / Menu -->
+                    <aside class="sidebar">
+                        <ul class="menu-list">
+                            <li class="menu-item active" data-section="profile">> ./profile.sh</li>
+                            <li class="menu-item" data-section="skills">> ./skills.exe</li>
+                            <li class="menu-item" data-section="projects">> ./projects.bat</li>
+                            <li class="menu-item" data-section="education">> ./education.log</li>
+                            <li class="menu-item" data-section="contact">> ./contact_me.sh</li>
+                        </ul>
+                    </aside>
+
+                    <!-- Main Display Area -->
+                    <section class="display-area">
+                        <!-- Dynamic Content Will Be Injected Here via JS -->
+                        <div id="content-output"></div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="terminal-footer">
+            <p>© 2026 Binayak Pandit | <a href="https://github.com/axel008" target="_blank">[GITHUB]</a> | <a href="https://linkedin.com/in/binayak11" target="_blank">[LINKEDIN]</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
