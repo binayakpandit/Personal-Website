@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <ul>
                     <li><span class="prompt">EMAIL:</span> <a href="mailto:artsbinay@gmail.com" class="glitch-hover">artsbinay@gmail.com</a></li>
                     <li><span class="prompt">PHONE:</span> <a href="tel:9742437562" class="glitch-hover">9742437562</a></li>
-                    <li><span class="prompt">LINKEDIN:</span> <a href="https://linkedin.com/in/binayak-pandit" target="_blank" class="glitch-hover">linkedin.com/in/binayak11</a></li>
-                    <li><span class="prompt">GITHUB:</span> <a href="https://github.com/binayakpandit" target="_blank" class="glitch-hover">github.com/axel008</a></li>
+                    <li><span class="prompt">LINKEDIN:</span> <a href="https://linkedin.com/in/binayak-pandit" target="_blank" class="glitch-hover">linkedin.com/in/binayak-pandit</a></li>
+                    <li><span class="prompt">GITHUB:</span> <a href="https://github.com/binayakpandit" target="_blank" class="glitch-hover">github.com/binayakpandit</a></li>
                 </ul>
                 <br>
                 <p class="blink">Waiting for incoming transmission...</p>
